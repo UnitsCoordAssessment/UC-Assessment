@@ -20,8 +20,8 @@ button. A small label in the lower-left corner says "DEMO MODE".
 One page at a time, each with a **Continue** button in the lower-right corner
 of the screen and **no Back button**:
 
-1. **Consent**: placeholder IRB text, then "Do you agree to participate in
-   this study?" with Yes / No. Choosing No ends the assessment and saves
+1. **Consent**: IRB-approved consent message with information about the study and data collection, followed by
+"Do you agree to participate in this study?" with Yes / No. Choosing No ends the assessment and saves
    nothing.
 2. **About you**: first name, last name, age range, college/university email,
    academic program, and program of study.
