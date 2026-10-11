@@ -1,7 +1,7 @@
 # Units-Coordination Assessment
 
 A browser-based assessment built with **jsPsych 8** that saves to **Supabase**.
-It should be run on a desktop with mouse and keyboard. Otherwise, it needs no build step, and can be hosted for free
+It should be run on a desktop with mouse and keyboard or on a laptop. Otherwise, it needs no build step, and can be hosted for free
 as a static website (for example GitHub Pages).
 
 ---
@@ -243,22 +243,6 @@ session ID and can go to the analysis team as is.
 
 `supabase/schema.sql` ends with a commented-out query that deletes everything
 for one email address. Run it in the SQL Editor.
-
----
-
-## Before collecting real data
-
-- [ ] Replace the IRB placeholder on the consent page (`consentHtml` in
-      `js/content.js`) with the approved wording.
-- [ ] Confirm with your IRB that collecting names and email addresses through
-      a cloud database is approved, and list Supabase as a data processor if
-      they ask. Ask CSU IT whether it needs a vendor security review.
-- [ ] Check Supabase's current plans: confirm the plan includes automatic
-      backups and will not pause an inactive project during data collection.
-- [ ] Pilot the whole flow on the actual iPads and laptops, on each campus's
-      Wi-Fi.
-- [ ] Have someone who uses a screen reader try it. Figures have text
-      descriptions, but several problems depend on seeing the image.
 
 ---
 
