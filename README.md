@@ -1,7 +1,7 @@
 # Units-Coordination Assessment
 
 A browser-based assessment built with **jsPsych 8** that saves to **Supabase**.
-It runs on laptops and iPads, needs no build step, and can be hosted for free
+It should be run on a desktop with mouse and keyboard. Otherwise, it needs no build step, and can be hosted for free
 as a static website (for example GitHub Pages).
 
 ---
